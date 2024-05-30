@@ -1,3 +1,56 @@
 @import url(/node_modules/bootstrap-icons/font/bootstrap-icons.css);
 @import 'custom';
 
+html{
+    position:relative;
+    min-height: 100%;
+}
+
+footer.footer{
+    padding: 0 15px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-logo {
+    width: 120px;
+    height: auto;
+    border: 2px solid #a42725;
+    background-size: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.copyright {
+    color: #999;
+    font-size: 11px;
+    text-transform: uppercase;
+    text-align: left;
+    padding-left: 1em;
+}
+
+ul{
+    list-style: none;
+}
+li{
+    margin: 0 10px;
+}
+.icons-social {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    text-shadow: 8px 6px 0 rgba(0, 0, 0, 0.9);
+}
+
+.social{
+    padding: 15px 0;
+}
+
+.social h4 {
+    padding-bottom: 15px;
+    font-family: Gudea, serif;
+    text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.9);
+}
