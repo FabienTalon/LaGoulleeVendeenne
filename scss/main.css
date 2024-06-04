@@ -23944,7 +23944,45 @@ footer.footer {
   width: 100%;
 }
 
-.footer-logo {
+.footer-links {
+  position: relative;
+  padding: 20px;
+  text-align: justify;
+}
+
+.footer-description {
+  padding: 20px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-container p {
+  line-height: 1.3;
+  text-align: justify;
+}
+
+.footer-container .footer-links h4, .footer-container .footer-links .h4 {
+  position: relative;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-family: Gudea, serif;
+  text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.9);
+}
+
+footer .footer-container .footer-links h4:after, footer .footer-container .footer-links .h4:after {
+  content: "";
+  width: 20px;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #a42725;
+}
+
+.logo2 {
   width: 120px;
   height: auto;
   border: 2px solid #a42725;
@@ -23965,10 +24003,17 @@ footer.footer {
 
 ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 li {
   margin: 0 10px;
+}
+
+.footer-links li {
+  line-height: 26px;
+  margin: 0;
 }
 
 .icons-social {
@@ -23979,11 +24024,13 @@ li {
 }
 
 .social {
-  padding: 15px 0;
+  padding: 20px 0;
+  text-align: center;
 }
 
 .social h4, .social .h4 {
   padding-bottom: 15px;
+  font-size: 20px;
   font-family: Gudea, serif;
   text-shadow: 4px 4px 5px rgba(0, 0, 0, 0.9);
 }/*# sourceMappingURL=main.css.map */
