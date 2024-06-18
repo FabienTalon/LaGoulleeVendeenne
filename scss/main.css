@@ -23937,6 +23937,49 @@ html {
   min-height: 100%;
 }
 
+header {
+  position: relative;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 5px;
+}
+header .row {
+  position: relative;
+}
+header .devanture {
+  width: 100%;
+  height: 60px;
+}
+header .devanture img {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  z-index: 2;
+}
+header .logo1 {
+  position: absolute;
+  left: 2%;
+  top: 25%;
+  z-index: 1;
+}
+header .logo1 img {
+  width: 150px;
+  height: 150px;
+  border: 2px solid #a42725;
+  background-size: cover;
+  border-radius: 50%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  background-color: white;
+}
+header .nav-link {
+  justify-content: end;
+  display: flex;
+}
+header .navbar-toggler {
+  z-index: 3;
+  position: relative;
+}
+
 footer.footer {
   padding: 0 15px;
   position: absolute;
